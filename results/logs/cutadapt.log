@@ -1,0 +1,1472 @@
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502495_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502495_2_trimmed.fastq.gz ../data/raw/SRR15502495_1.fastq.gz ../data/raw/SRR15502495_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502506.1 1 length=75' in file 1 does not match 'SRR15502495.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502562_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502562_2_trimmed.fastq.gz ../data/raw/SRR15502562_1.fastq.gz ../data/raw/SRR15502562_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502573.1 1 length=75' in file 1 does not match 'SRR15502562.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502584_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502584_2_trimmed.fastq.gz ../data/raw/SRR15502584_1.fastq.gz ../data/raw/SRR15502584_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502595.1 1 length=75' in file 1 does not match 'SRR15502584.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502832_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502832_2_trimmed.fastq.gz ../data/raw/SRR15502832_1.fastq.gz ../data/raw/SRR15502832_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502843.1 1 length=75' in file 1 does not match 'SRR15502832.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502854_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502854_2_trimmed.fastq.gz ../data/raw/SRR15502854_1.fastq.gz ../data/raw/SRR15502854_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502865.1 1 length=75' in file 1 does not match 'SRR15502854.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502965_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502965_2_trimmed.fastq.gz ../data/raw/SRR15502965_1.fastq.gz ../data/raw/SRR15502965_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502976.1 1 length=75' in file 1 does not match 'SRR15502965.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502988_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502988_2_trimmed.fastq.gz ../data/raw/SRR15502988_1.fastq.gz ../data/raw/SRR15502988_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502999.1 1 length=75' in file 1 does not match 'SRR15502988.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15503143_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15503143_2_trimmed.fastq.gz ../data/raw/SRR15503143_1.fastq.gz ../data/raw/SRR15503143_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15503154.1 1 length=75' in file 1 does not match 'SRR15503143.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502495_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502495_2_trimmed.fastq.gz ../data/raw/SRR15502495_1.fastq.gz ../data/raw/SRR15502495_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502506.1 1 length=75' in file 1 does not match 'SRR15502495.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502562_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502562_2_trimmed.fastq.gz ../data/raw/SRR15502562_1.fastq.gz ../data/raw/SRR15502562_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502573.1 1 length=75' in file 1 does not match 'SRR15502562.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502584_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502584_2_trimmed.fastq.gz ../data/raw/SRR15502584_1.fastq.gz ../data/raw/SRR15502584_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502595.1 1 length=75' in file 1 does not match 'SRR15502584.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502832_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502832_2_trimmed.fastq.gz ../data/raw/SRR15502832_1.fastq.gz ../data/raw/SRR15502832_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502843.1 1 length=75' in file 1 does not match 'SRR15502832.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502854_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502854_2_trimmed.fastq.gz ../data/raw/SRR15502854_1.fastq.gz ../data/raw/SRR15502854_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502865.1 1 length=75' in file 1 does not match 'SRR15502854.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502965_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502965_2_trimmed.fastq.gz ../data/raw/SRR15502965_1.fastq.gz ../data/raw/SRR15502965_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502976.1 1 length=75' in file 1 does not match 'SRR15502965.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15502988_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15502988_2_trimmed.fastq.gz ../data/raw/SRR15502988_1.fastq.gz ../data/raw/SRR15502988_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15502999.1 1 length=75' in file 1 does not match 'SRR15502988.1 1 length=75' in file 2.
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -m 20 -o ../results/cutadapt/SRR15503143_1_trimmed.fastq.gz -p ../results/cutadapt/SRR15503143_2_trimmed.fastq.gz ../data/raw/SRR15503143_1.fastq.gz ../data/raw/SRR15503143_2.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Read name 'SRR15503154.1 1 length=75' in file 1 does not match 'SRR15503143.1 1 length=75' in file 2.
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 34: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+./trim_reads_below_20phred.sh: line 35: -m: command not found
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502495_trimmed.fastq.gz ../data/raw/SRR15502495.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502495.3 3 length=75' (first) does not match 'SRR15502495.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502506_trimmed.fastq.gz ../data/raw/SRR15502506.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502506.3 3 length=75' (first) does not match 'SRR15502506.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502562_trimmed.fastq.gz ../data/raw/SRR15502562.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502562.3 3 length=75' (first) does not match 'SRR15502562.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502573_trimmed.fastq.gz ../data/raw/SRR15502573.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502573.3 3 length=75' (first) does not match 'SRR15502573.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502584_trimmed.fastq.gz ../data/raw/SRR15502584.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502584.3 3 length=75' (first) does not match 'SRR15502584.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502595_trimmed.fastq.gz ../data/raw/SRR15502595.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502595.3 3 length=75' (first) does not match 'SRR15502595.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502832_trimmed.fastq.gz ../data/raw/SRR15502832.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502832.3 3 length=75' (first) does not match 'SRR15502832.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502843_trimmed.fastq.gz ../data/raw/SRR15502843.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502843.3 3 length=75' (first) does not match 'SRR15502843.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502854_trimmed.fastq.gz ../data/raw/SRR15502854.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502854.3 3 length=75' (first) does not match 'SRR15502854.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502865_trimmed.fastq.gz ../data/raw/SRR15502865.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502865.3 3 length=75' (first) does not match 'SRR15502865.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502965_trimmed.fastq.gz ../data/raw/SRR15502965.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502965.3 3 length=75' (first) does not match 'SRR15502965.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502976_trimmed.fastq.gz ../data/raw/SRR15502976.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502976.3 3 length=75' (first) does not match 'SRR15502976.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502988_trimmed.fastq.gz ../data/raw/SRR15502988.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502988.3 3 length=75' (first) does not match 'SRR15502988.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15502999_trimmed.fastq.gz ../data/raw/SRR15502999.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502999.3 3 length=75' (first) does not match 'SRR15502999.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15503143_trimmed.fastq.gz ../data/raw/SRR15503143.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15503143.3 3 length=75' (first) does not match 'SRR15503143.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20,20 -m 20 -o ../results/cutadapt/SRR15503154_trimmed.fastq.gz ../data/raw/SRR15503154.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15503154.3 3 length=75' (first) does not match 'SRR15503154.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502495_trimmed.fastq.gz ../data/raw/SRR15502495.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502495.3 3 length=75' (first) does not match 'SRR15502495.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502506_trimmed.fastq.gz ../data/raw/SRR15502506.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502506.3 3 length=75' (first) does not match 'SRR15502506.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502562_trimmed.fastq.gz ../data/raw/SRR15502562.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502562.3 3 length=75' (first) does not match 'SRR15502562.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502573_trimmed.fastq.gz ../data/raw/SRR15502573.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502573.3 3 length=75' (first) does not match 'SRR15502573.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502584_trimmed.fastq.gz ../data/raw/SRR15502584.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502584.3 3 length=75' (first) does not match 'SRR15502584.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502595_trimmed.fastq.gz ../data/raw/SRR15502595.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502595.3 3 length=75' (first) does not match 'SRR15502595.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502832_trimmed.fastq.gz ../data/raw/SRR15502832.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502832.3 3 length=75' (first) does not match 'SRR15502832.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502843_trimmed.fastq.gz ../data/raw/SRR15502843.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502843.3 3 length=75' (first) does not match 'SRR15502843.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502854_trimmed.fastq.gz ../data/raw/SRR15502854.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502854.3 3 length=75' (first) does not match 'SRR15502854.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502865_trimmed.fastq.gz ../data/raw/SRR15502865.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502865.3 3 length=75' (first) does not match 'SRR15502865.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502965_trimmed.fastq.gz ../data/raw/SRR15502965.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502965.3 3 length=75' (first) does not match 'SRR15502965.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502976_trimmed.fastq.gz ../data/raw/SRR15502976.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502976.3 3 length=75' (first) does not match 'SRR15502976.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502988_trimmed.fastq.gz ../data/raw/SRR15502988.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502988.3 3 length=75' (first) does not match 'SRR15502988.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15502999_trimmed.fastq.gz ../data/raw/SRR15502999.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15502999.3 3 length=75' (first) does not match 'SRR15502999.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15503143_trimmed.fastq.gz ../data/raw/SRR15503143.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15503143.3 3 length=75' (first) does not match 'SRR15503143.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: --interleaved -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -q 20 -o ../results/cutadapt/SRR15503154_trimmed.fastq.gz ../data/raw/SRR15503154.fastq.gz
+Processing paired-end reads on 4 cores ...
+ERROR: Error in sequence file at unknown line: Reads are improperly paired. Name 'SRR15503154.3 3 length=75' (first) does not match 'SRR15503154.4 4 length=75' (second).
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502495_trimmed.fastq.gz ../data/raw/SRR15502495.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 37.009 s (4.247 µs/read; 14.13 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               8,714,631
+Reads with adapters:                   242,397 (2.8%)
+Reads written (passing filters):     8,714,631 (100.0%)
+
+Total basepairs processed:   653,597,325 bp
+Quality-trimmed:               5,878,302 bp (0.9%)
+Total written (filtered):    646,888,267 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 242397 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 29.8%
+  C: 32.0%
+  G: 25.5%
+  T: 12.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	193383	136166.1	0	193383
+4	30777	34041.5	0	30777
+5	9510	8510.4	0	9510
+6	1945	2127.6	0	1945
+7	1196	531.9	0	1196
+8	825	133.0	0	825
+9	1064	33.2	0	785 279
+10	957	8.3	1	673 284
+11	760	2.1	1	590 170
+12	671	0.5	1	591 80
+13	583	0.1	1	533 50
+14	722	0.0	1	1 721
+15	2	0.0	1	0 2
+16	2	0.0	1	0 2
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502506_trimmed.fastq.gz ../data/raw/SRR15502506.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 37.370 s (4.288 µs/read; 13.99 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               8,714,631
+Reads with adapters:                   242,532 (2.8%)
+Reads written (passing filters):     8,714,631 (100.0%)
+
+Total basepairs processed:   653,597,325 bp
+Quality-trimmed:                 433,086 bp (0.1%)
+Total written (filtered):    652,003,742 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 242532 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.5%
+  C: 29.3%
+  G: 26.2%
+  T: 17.7%
+  none/other: 1.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	182510	136166.1	0	182510
+4	35539	34041.5	0	35539
+5	8454	8510.4	0	8454
+6	1516	2127.6	0	1516
+7	1122	531.9	0	1122
+8	925	133.0	0	925
+9	951	33.2	0	796 155
+10	931	8.3	1	695 236
+11	740	2.1	1	635 105
+12	702	0.5	1	570 132
+13	600	0.1	1	570 30
+14	515	0.0	1	501 14
+15	459	0.0	1	437 22
+16	401	0.0	1	385 16
+17	376	0.0	1	358 18
+18	305	0.0	1	292 13
+19	270	0.0	1	257 12 1
+20	255	0.0	2	240 13 2
+21	260	0.0	2	243 16 1
+22	252	0.0	2	243 5 4
+23	236	0.0	2	217 18 1
+24	199	0.0	2	185 12 2
+25	212	0.0	2	198 11 3
+26	164	0.0	2	156 7 1
+27	142	0.0	2	127 11 4
+28	121	0.0	2	111 6 4
+29	99	0.0	2	92 5 2
+30	136	0.0	3	116 17 3
+31	95	0.0	3	87 6 1 1
+32	87	0.0	3	79 6 2
+33	90	0.0	3	85 3 2
+34	85	0.0	3	74 9 2
+35	81	0.0	3	72 7 1 1
+36	69	0.0	3	67 2
+37	63	0.0	3	59 2 0 2
+38	46	0.0	3	40 3 2 1
+39	35	0.0	3	35
+40	36	0.0	3	30 4 1 1
+41	40	0.0	3	38 2
+42	34	0.0	3	29 2 0 3
+43	38	0.0	3	35 3
+44	22	0.0	3	19 1 0 2
+45	16	0.0	3	15 1
+46	5	0.0	3	4 1
+47	13	0.0	3	12 0 1
+48	9	0.0	3	7 2
+49	11	0.0	3	9 1 1
+50	10	0.0	3	7 1 1 1
+51	11	0.0	3	10 1
+52	5	0.0	3	4 0 0 1
+53	10	0.0	3	9 1
+54	6	0.0	3	5 1
+55	2	0.0	3	1 1
+56	4	0.0	3	3 1
+57	7	0.0	3	5 2
+58	6	0.0	3	2 2 2
+59	10	0.0	3	10
+60	5	0.0	3	3 2
+61	4	0.0	3	4
+62	3	0.0	3	3
+63	1	0.0	3	1
+64	2	0.0	3	1 1
+65	5	0.0	3	3 0 2
+66	8	0.0	3	5 1 2
+67	5	0.0	3	2 2 1
+68	3	0.0	3	3
+69	8	0.0	3	2 3 3
+70	14	0.0	3	4 2 8
+71	10	0.0	3	1 4 5
+72	17	0.0	3	5 1 11
+73	36	0.0	3	1 1 28 6
+74	332	0.0	3	2 17 299 14
+75	2741	0.0	3	7 625 2008 101
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502562_trimmed.fastq.gz ../data/raw/SRR15502562.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 66.305 s (5.615 µs/read; 10.69 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,807,859
+Reads with adapters:                   336,874 (2.9%)
+Reads written (passing filters):    11,807,859 (100.0%)
+
+Total basepairs processed:   885,589,425 bp
+Quality-trimmed:               6,973,283 bp (0.8%)
+Total written (filtered):    877,464,471 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 336874 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 29.8%
+  C: 31.2%
+  G: 26.2%
+  T: 12.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	269296	184497.8	0	269296
+4	42427	46124.4	0	42427
+5	13515	11531.1	0	13515
+6	2558	2882.8	0	2558
+7	1653	720.7	0	1653
+8	1049	180.2	0	1049
+9	1488	45.0	0	1118 370
+10	1267	11.3	1	895 372
+11	1024	2.8	1	769 255
+12	900	0.7	1	775 125
+13	707	0.2	1	646 61
+14	986	0.0	1	0 986
+15	1	0.0	1	0 1
+16	2	0.0	1	0 2
+21	1	0.0	2	0 0 1
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502573_trimmed.fastq.gz ../data/raw/SRR15502573.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 58.172 s (4.927 µs/read; 12.18 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,807,859
+Reads with adapters:                   321,446 (2.7%)
+Reads written (passing filters):    11,807,859 (100.0%)
+
+Total basepairs processed:   885,589,425 bp
+Quality-trimmed:                 566,274 bp (0.1%)
+Total written (filtered):    883,705,547 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 321446 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.2%
+  C: 30.8%
+  G: 26.8%
+  T: 17.0%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	243559	184497.8	0	243559
+4	47959	46124.4	0	47959
+5	11714	11531.1	0	11714
+6	2026	2882.8	0	2026
+7	1439	720.7	0	1439
+8	1149	180.2	0	1149
+9	1271	45.0	0	1081 190
+10	1220	11.3	1	909 311
+11	949	2.8	1	820 129
+12	792	0.7	1	734 58
+13	764	0.2	1	727 37
+14	677	0.0	1	657 20
+15	635	0.0	1	614 21
+16	523	0.0	1	504 19
+17	515	0.0	1	492 23
+18	433	0.0	1	423 10
+19	407	0.0	1	398 9
+20	418	0.0	2	401 17
+21	348	0.0	2	336 10 2
+22	336	0.0	2	319 13 4
+23	300	0.0	2	288 10 2
+24	297	0.0	2	289 6 2
+25	242	0.0	2	223 14 5
+26	238	0.0	2	223 12 3
+27	232	0.0	2	211 18 3
+28	196	0.0	2	185 10 1
+29	158	0.0	2	155 3
+30	171	0.0	3	157 13 0 1
+31	138	0.0	3	129 8 0 1
+32	122	0.0	3	112 9 1
+33	116	0.0	3	110 6
+34	120	0.0	3	110 8 2
+35	113	0.0	3	99 12 1 1
+36	103	0.0	3	96 4 2 1
+37	107	0.0	3	99 7 1
+38	74	0.0	3	70 3 1
+39	82	0.0	3	79 3
+40	81	0.0	3	73 5 3
+41	45	0.0	3	43 1 1
+42	74	0.0	3	69 4 1
+43	72	0.0	3	67 4 0 1
+44	26	0.0	3	23 2 1
+45	29	0.0	3	26 2 0 1
+46	19	0.0	3	18 1
+47	26	0.0	3	26
+48	20	0.0	3	18 1 0 1
+49	17	0.0	3	15 2
+50	15	0.0	3	14 0 0 1
+51	16	0.0	3	12 3 1
+52	12	0.0	3	11 1
+53	10	0.0	3	8 2
+54	16	0.0	3	14 0 0 2
+55	21	0.0	3	19 2
+56	9	0.0	3	8 1
+57	13	0.0	3	12 1
+58	17	0.0	3	15 0 1 1
+59	11	0.0	3	11
+60	16	0.0	3	13 3
+61	12	0.0	3	11 1
+62	7	0.0	3	5 2
+63	12	0.0	3	11 0 0 1
+64	6	0.0	3	6
+65	6	0.0	3	4 1 1
+66	9	0.0	3	9
+67	13	0.0	3	13
+68	14	0.0	3	12 1 1
+69	12	0.0	3	9 2 1
+70	9	0.0	3	7 2
+71	6	0.0	3	5 0 0 1
+72	19	0.0	3	18 0 1
+73	17	0.0	3	10 2 3 2
+74	91	0.0	3	2 2 85 2
+75	705	0.0	3	13 223 451 18
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502584_trimmed.fastq.gz ../data/raw/SRR15502584.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 62.297 s (5.426 µs/read; 11.06 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,480,780
+Reads with adapters:                   322,599 (2.8%)
+Reads written (passing filters):    11,480,780 (100.0%)
+
+Total basepairs processed:   861,058,500 bp
+Quality-trimmed:               7,533,777 bp (0.9%)
+Total written (filtered):    852,438,991 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 322599 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 30.2%
+  C: 31.3%
+  G: 25.5%
+  T: 12.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	259651	179387.2	0	259651
+4	41832	44846.8	0	41832
+5	12583	11211.7	0	12583
+6	2154	2802.9	0	2154
+7	1154	700.7	0	1154
+8	738	175.2	0	738
+9	1056	43.8	0	737 319
+10	1037	10.9	1	615 422
+11	719	2.7	1	486 233
+12	572	0.7	1	469 103
+13	469	0.2	1	413 56
+14	630	0.0	1	0 630
+15	2	0.0	1	0 2
+16	1	0.0	1	0 1
+20	1	0.0	2	0 0 1
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502595_trimmed.fastq.gz ../data/raw/SRR15502595.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 75.091 s (6.541 µs/read; 9.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,480,780
+Reads with adapters:                   305,568 (2.7%)
+Reads written (passing filters):    11,480,780 (100.0%)
+
+Total basepairs processed:   861,058,500 bp
+Quality-trimmed:                 565,767 bp (0.1%)
+Total written (filtered):    859,248,177 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 305568 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.5%
+  C: 30.5%
+  G: 26.4%
+  T: 17.1%
+  none/other: 0.5%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	234416	179387.2	0	234416
+4	46865	44846.8	0	46865
+5	10823	11211.7	0	10823
+6	1549	2802.9	0	1549
+7	1014	700.7	0	1014
+8	782	175.2	0	782
+9	901	43.8	0	711 190
+10	898	10.9	1	595 303
+11	666	2.7	1	534 132
+12	569	0.7	1	443 126
+13	472	0.2	1	443 29
+14	439	0.0	1	422 17
+15	392	0.0	1	377 15
+16	327	0.0	1	317 10
+17	288	0.0	1	273 15
+18	323	0.0	1	306 17
+19	276	0.0	1	264 12
+20	236	0.0	2	220 14 2
+21	221	0.0	2	206 12 3
+22	240	0.0	2	223 15 2
+23	225	0.0	2	212 8 5
+24	179	0.0	2	173 5 1
+25	192	0.0	2	175 14 3
+26	150	0.0	2	135 10 5
+27	138	0.0	2	126 10 1 1
+28	112	0.0	2	105 6 1
+29	123	0.0	2	116 4 2 1
+30	97	0.0	3	88 4 3 2
+31	94	0.0	3	88 3 1 2
+32	96	0.0	3	87 6 2 1
+33	77	0.0	3	69 5 2 1
+34	90	0.0	3	72 15 2 1
+35	75	0.0	3	73 2
+36	63	0.0	3	55 6 1 1
+37	59	0.0	3	50 6 3
+38	47	0.0	3	43 2 2
+39	57	0.0	3	46 9 1 1
+40	35	0.0	3	30 3 1 1
+41	44	0.0	3	37 4 1 2
+42	35	0.0	3	29 3 2 1
+43	58	0.0	3	55 2 1
+44	15	0.0	3	14 0 0 1
+45	22	0.0	3	19 1 1 1
+46	16	0.0	3	11 3 0 2
+47	26	0.0	3	23 0 0 3
+48	9	0.0	3	9
+49	17	0.0	3	13 2 2
+50	14	0.0	3	12 1 1
+51	7	0.0	3	6 1
+52	13	0.0	3	12 1
+53	7	0.0	3	5 1 1
+54	9	0.0	3	6 2 1
+55	10	0.0	3	10
+56	8	0.0	3	7 0 0 1
+57	13	0.0	3	10 3
+58	12	0.0	3	11 1
+59	9	0.0	3	8 0 1
+60	14	0.0	3	14
+61	12	0.0	3	10 2
+62	13	0.0	3	10 2 0 1
+63	4	0.0	3	4
+64	3	0.0	3	2 0 0 1
+65	5	0.0	3	4 1
+66	5	0.0	3	5
+67	7	0.0	3	6 0 1
+68	10	0.0	3	10
+69	6	0.0	3	3 1 2
+70	6	0.0	3	6
+71	12	0.0	3	7 1 4
+72	20	0.0	3	15 1 4
+73	19	0.0	3	2 2 12 3
+74	215	0.0	3	4 3 200 8
+75	1267	0.0	3	5 226 991 45
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502832_trimmed.fastq.gz ../data/raw/SRR15502832.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 95.097 s (7.135 µs/read; 8.41 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              13,329,235
+Reads with adapters:                   375,210 (2.8%)
+Reads written (passing filters):    13,329,235 (100.0%)
+
+Total basepairs processed:   999,692,625 bp
+Quality-trimmed:               9,282,564 bp (0.9%)
+Total written (filtered):    989,134,296 bp (98.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 375210 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 29.8%
+  C: 31.3%
+  G: 26.0%
+  T: 12.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	299971	208269.3	0	299971
+4	48500	52067.3	0	48500
+5	14770	13016.8	0	14770
+6	2858	3254.2	0	2858
+7	1770	813.6	0	1770
+8	1018	203.4	0	1018
+9	1421	50.8	0	1045 376
+10	1361	12.7	1	919 442
+11	1024	3.2	1	750 274
+12	923	0.8	1	786 137
+13	744	0.2	1	671 73
+14	844	0.0	1	1 843
+15	3	0.0	1	0 3
+16	3	0.0	1	0 3
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502843_trimmed.fastq.gz ../data/raw/SRR15502843.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 85.762 s (6.434 µs/read; 9.33 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              13,329,235
+Reads with adapters:                   359,631 (2.7%)
+Reads written (passing filters):    13,329,235 (100.0%)
+
+Total basepairs processed:   999,692,625 bp
+Quality-trimmed:                 645,033 bp (0.1%)
+Total written (filtered):    997,556,571 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 359631 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.2%
+  C: 30.9%
+  G: 26.7%
+  T: 16.8%
+  none/other: 0.5%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	273959	208269.3	0	273959
+4	53568	52067.3	0	53568
+5	13003	13016.8	0	13003
+6	2185	3254.2	0	2185
+7	1549	813.6	0	1549
+8	1141	203.4	0	1141
+9	1253	50.8	0	1039 214
+10	1306	12.7	1	928 378
+11	975	3.2	1	825 150
+12	885	0.8	1	810 75
+13	780	0.2	1	732 48
+14	653	0.0	1	624 29
+15	603	0.0	1	579 24
+16	534	0.0	1	515 19
+17	513	0.0	1	490 23
+18	400	0.0	1	385 15
+19	382	0.0	1	363 18 1
+20	317	0.0	2	304 11 2
+21	340	0.0	2	321 15 4
+22	351	0.0	2	334 13 4
+23	322	0.0	2	306 14 2
+24	274	0.0	2	257 15 2
+25	243	0.0	2	229 12 2
+26	249	0.0	2	237 10 2
+27	207	0.0	2	193 12 2
+28	185	0.0	2	169 13 3
+29	153	0.0	2	144 7 2
+30	157	0.0	3	145 7 1 4
+31	150	0.0	3	135 12 3
+32	139	0.0	3	133 5 0 1
+33	109	0.0	3	107 1 1
+34	121	0.0	3	112 6 3
+35	99	0.0	3	94 4 1
+36	88	0.0	3	77 8 2 1
+37	86	0.0	3	83 3
+38	75	0.0	3	66 6 2 1
+39	66	0.0	3	63 2 0 1
+40	62	0.0	3	52 7 2 1
+41	63	0.0	3	61 2
+42	55	0.0	3	52 1 1 1
+43	54	0.0	3	49 4 1
+44	26	0.0	3	24 2
+45	29	0.0	3	26 3
+46	21	0.0	3	19 2
+47	22	0.0	3	20 1 1
+48	10	0.0	3	7 2 1
+49	9	0.0	3	7 2
+50	7	0.0	3	6 1
+51	13	0.0	3	12 1
+52	19	0.0	3	16 2 0 1
+53	7	0.0	3	6 0 1
+54	6	0.0	3	6
+55	12	0.0	3	10 1 1
+56	7	0.0	3	5 2
+57	6	0.0	3	6
+58	10	0.0	3	8 1 1
+59	8	0.0	3	7 1
+60	5	0.0	3	5
+61	11	0.0	3	11
+62	8	0.0	3	5 3
+63	11	0.0	3	11
+64	9	0.0	3	6 2 1
+65	10	0.0	3	10
+66	10	0.0	3	9 1
+67	2	0.0	3	1 0 1
+68	6	0.0	3	6
+69	6	0.0	3	5 0 1
+70	6	0.0	3	4 1 1
+71	9	0.0	3	7 1 1
+72	24	0.0	3	17 1 6
+73	23	0.0	3	1 1 19 2
+74	203	0.0	3	2 1 188 12
+75	1422	0.0	3	3 192 1177 50
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502854_trimmed.fastq.gz ../data/raw/SRR15502854.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 67.244 s (7.088 µs/read; 8.46 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,486,963
+Reads with adapters:                   276,490 (2.9%)
+Reads written (passing filters):     9,486,963 (100.0%)
+
+Total basepairs processed:   711,522,225 bp
+Quality-trimmed:               7,100,050 bp (1.0%)
+Total written (filtered):    703,492,381 bp (98.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 276490 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 30.3%
+  C: 30.9%
+  G: 26.1%
+  T: 12.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	223282	148233.8	0	223282
+4	35474	37058.4	0	35474
+5	10357	9264.6	0	10357
+6	1801	2316.2	0	1801
+7	1020	579.0	0	1020
+8	657	144.8	0	657
+9	932	36.2	0	653 279
+10	830	9.0	1	528 302
+11	703	2.3	1	474 229
+12	517	0.6	1	430 87
+13	418	0.1	1	375 43
+14	494	0.0	1	0 494
+15	2	0.0	1	0 2
+20	3	0.0	2	0 0 3
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502865_trimmed.fastq.gz ../data/raw/SRR15502865.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 58.182 s (6.133 µs/read; 9.78 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,486,963
+Reads with adapters:                   251,819 (2.7%)
+Reads written (passing filters):     9,486,963 (100.0%)
+
+Total basepairs processed:   711,522,225 bp
+Quality-trimmed:                 610,113 bp (0.1%)
+Total written (filtered):    709,836,664 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 251819 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.6%
+  C: 30.7%
+  G: 26.2%
+  T: 16.7%
+  none/other: 0.7%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	192669	148233.8	0	192669
+4	37790	37058.4	0	37790
+5	9103	9264.6	0	9103
+6	1309	2316.2	0	1309
+7	912	579.0	0	912
+8	692	144.8	0	692
+9	802	36.2	0	647 155
+10	803	9.0	1	539 264
+11	588	2.3	1	486 102
+12	477	0.6	1	402 75
+13	412	0.1	1	388 24
+14	382	0.0	1	369 13
+15	313	0.0	1	293 20
+16	289	0.0	1	269 20
+17	275	0.0	1	269 6
+18	262	0.0	1	253 9
+19	220	0.0	1	211 7 2
+20	226	0.0	2	213 11 2
+21	221	0.0	2	209 11 1
+22	189	0.0	2	180 8 1
+23	179	0.0	2	172 5 2
+24	150	0.0	2	143 6 1
+25	147	0.0	2	141 4 2
+26	128	0.0	2	120 7 1
+27	122	0.0	2	116 6
+28	108	0.0	2	99 8 1
+29	91	0.0	2	83 7 1
+30	72	0.0	3	69 2 1
+31	102	0.0	3	90 9 3
+32	85	0.0	3	73 6 5 1
+33	83	0.0	3	79 3 1
+34	76	0.0	3	71 3 1 1
+35	59	0.0	3	56 3
+36	67	0.0	3	63 4
+37	47	0.0	3	44 1 1 1
+38	68	0.0	3	63 4 0 1
+39	29	0.0	3	27 2
+40	48	0.0	3	40 6 2
+41	39	0.0	3	38 1
+42	35	0.0	3	30 3 1 1
+43	50	0.0	3	42 5 3
+44	16	0.0	3	13 2 1
+45	12	0.0	3	11 1
+46	18	0.0	3	15 2 0 1
+47	16	0.0	3	14 1 0 1
+48	6	0.0	3	5 0 0 1
+49	11	0.0	3	10 0 0 1
+50	6	0.0	3	6
+51	6	0.0	3	4 0 1 1
+52	9	0.0	3	7 2
+53	5	0.0	3	5
+54	6	0.0	3	3 2 1
+55	10	0.0	3	9 0 1
+56	9	0.0	3	7 2
+57	4	0.0	3	4
+58	4	0.0	3	4
+59	7	0.0	3	7
+60	8	0.0	3	6 1 0 1
+61	11	0.0	3	10 1
+62	12	0.0	3	10 2
+63	7	0.0	3	7
+64	6	0.0	3	4 1 1
+65	11	0.0	3	10 1
+66	11	0.0	3	10 0 1
+67	3	0.0	3	3
+68	10	0.0	3	8 0 2
+69	5	0.0	3	4 0 1
+70	10	0.0	3	8 0 1 1
+71	8	0.0	3	4 1 3
+72	32	0.0	3	21 2 7 2
+73	15	0.0	3	3 0 10 2
+74	218	0.0	3	6 1 201 10
+75	1588	0.0	3	6 180 1342 60
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502965_trimmed.fastq.gz ../data/raw/SRR15502965.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 62.276 s (6.772 µs/read; 8.86 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,196,766
+Reads with adapters:                   263,100 (2.9%)
+Reads written (passing filters):     9,196,766 (100.0%)
+
+Total basepairs processed:   689,757,450 bp
+Quality-trimmed:               5,877,250 bp (0.9%)
+Total written (filtered):    682,972,172 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 263100 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 29.9%
+  C: 31.5%
+  G: 26.1%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	208993	143699.5	0	208993
+4	33139	35924.9	0	33139
+5	10492	8981.2	0	10492
+6	2365	2245.3	0	2365
+7	1440	561.3	0	1440
+8	905	140.3	0	905
+9	1230	35.1	0	955 275
+10	1263	8.8	1	880 383
+11	924	2.2	1	740 184
+12	800	0.5	1	692 108
+13	634	0.1	1	582 52
+14	911	0.0	1	0 911
+15	1	0.0	1	0 1
+16	3	0.0	1	1 2
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502976_trimmed.fastq.gz ../data/raw/SRR15502976.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 55.002 s (5.981 µs/read; 10.03 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,196,766
+Reads with adapters:                   252,191 (2.7%)
+Reads written (passing filters):     9,196,766 (100.0%)
+
+Total basepairs processed:   689,757,450 bp
+Quality-trimmed:                 429,270 bp (0.1%)
+Total written (filtered):    688,245,147 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 252191 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.7%
+  C: 29.8%
+  G: 27.1%
+  T: 17.0%
+  none/other: 0.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	189453	143699.5	0	189453
+4	37138	35924.9	0	37138
+5	9056	8981.2	0	9056
+6	1784	2245.3	0	1784
+7	1285	561.3	0	1285
+8	1028	140.3	0	1028
+9	1072	35.1	0	908 164
+10	1164	8.8	1	899 265
+11	894	2.2	1	785 109
+12	732	0.5	1	661 71
+13	674	0.1	1	635 39
+14	645	0.0	1	631 14
+15	608	0.0	1	582 26
+16	514	0.0	1	498 16
+17	451	0.0	1	437 14
+18	365	0.0	1	353 12
+19	327	0.0	1	313 13 1
+20	334	0.0	2	323 10 1
+21	277	0.0	2	265 12
+22	324	0.0	2	313 10 1
+23	293	0.0	2	278 13 2
+24	267	0.0	2	250 16 1
+25	270	0.0	2	261 8 1
+26	232	0.0	2	220 12
+27	193	0.0	2	182 10 1
+28	178	0.0	2	163 9 6
+29	126	0.0	2	117 6 3
+30	123	0.0	3	115 8
+31	101	0.0	3	93 6 2
+32	111	0.0	3	103 5 1 2
+33	102	0.0	3	98 4
+34	93	0.0	3	88 3 1 1
+35	84	0.0	3	75 8 1
+36	85	0.0	3	77 4 4
+37	74	0.0	3	68 5 0 1
+38	82	0.0	3	74 5 2 1
+39	69	0.0	3	65 4
+40	41	0.0	3	39 0 1 1
+41	50	0.0	3	47 2 1
+42	40	0.0	3	36 2 1 1
+43	55	0.0	3	51 4
+44	17	0.0	3	14 2 1
+45	25	0.0	3	22 2 1
+46	20	0.0	3	15 4 1
+47	22	0.0	3	18 2 2
+48	21	0.0	3	21
+49	10	0.0	3	6 2 0 2
+50	13	0.0	3	12 1
+51	4	0.0	3	2 1 0 1
+52	12	0.0	3	12
+53	4	0.0	3	3 0 1
+54	7	0.0	3	7
+55	11	0.0	3	11
+56	5	0.0	3	5
+57	9	0.0	3	9
+58	7	0.0	3	7
+59	8	0.0	3	8
+60	10	0.0	3	9 0 1
+61	12	0.0	3	9 3
+62	6	0.0	3	6
+63	3	0.0	3	3
+64	8	0.0	3	6 1 1
+65	3	0.0	3	2 0 1
+66	7	0.0	3	6 1
+67	4	0.0	3	4
+68	10	0.0	3	8 1 1
+69	8	0.0	3	6 0 1 1
+70	9	0.0	3	8 0 0 1
+71	6	0.0	3	2 1 2 1
+72	16	0.0	3	13 0 3
+73	7	0.0	3	0 2 4 1
+74	82	0.0	3	3 8 67 4
+75	1011	0.0	3	7 402 580 22
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502988_trimmed.fastq.gz ../data/raw/SRR15502988.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 62.348 s (6.811 µs/read; 8.81 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,154,298
+Reads with adapters:                   247,716 (2.7%)
+Reads written (passing filters):     9,154,298 (100.0%)
+
+Total basepairs processed:   686,572,350 bp
+Quality-trimmed:               5,777,606 bp (0.8%)
+Total written (filtered):    679,952,843 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 247716 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 30.1%
+  C: 31.7%
+  G: 25.4%
+  T: 12.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	198797	143035.9	0	198797
+4	31149	35759.0	0	31149
+5	9962	8939.7	0	9962
+6	1812	2234.9	0	1812
+7	1042	558.7	0	1042
+8	715	139.7	0	715
+9	924	34.9	0	651 273
+10	910	8.7	1	593 317
+11	706	2.2	1	520 186
+12	631	0.5	1	554 77
+13	488	0.1	1	434 54
+14	580	0.0	1	0 580
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15502999_trimmed.fastq.gz ../data/raw/SRR15502999.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 53.135 s (5.804 µs/read; 10.34 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,154,298
+Reads with adapters:                   250,812 (2.7%)
+Reads written (passing filters):     9,154,298 (100.0%)
+
+Total basepairs processed:   686,572,350 bp
+Quality-trimmed:                 448,476 bp (0.1%)
+Total written (filtered):    684,975,589 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 250812 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.8%
+  C: 28.9%
+  G: 26.9%
+  T: 17.3%
+  none/other: 1.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	191772	143035.9	0	191772
+4	36505	35759.0	0	36505
+5	8405	8939.7	0	8405
+6	1306	2234.9	0	1306
+7	966	558.7	0	966
+8	791	139.7	0	791
+9	804	34.9	0	632 172
+10	827	8.7	1	586 241
+11	679	2.2	1	566 113
+12	718	0.5	1	531 187
+13	483	0.1	1	451 32
+14	433	0.0	1	417 16
+15	393	0.0	1	369 24
+16	326	0.0	1	314 12
+17	312	0.0	1	307 5
+18	248	0.0	1	240 8
+19	231	0.0	1	222 9
+20	230	0.0	2	218 9 3
+21	219	0.0	2	212 4 3
+22	219	0.0	2	208 9 2
+23	178	0.0	2	172 6
+24	158	0.0	2	153 4 1
+25	186	0.0	2	178 7 1
+26	172	0.0	2	164 7 1
+27	119	0.0	2	110 8 1
+28	105	0.0	2	97 6 2
+29	106	0.0	2	102 4
+30	98	0.0	3	83 10 2 3
+31	90	0.0	3	89 1
+32	92	0.0	3	82 8 2
+33	82	0.0	3	72 7 2 1
+34	82	0.0	3	72 6 2 2
+35	67	0.0	3	63 3 1
+36	67	0.0	3	59 4 3 1
+37	48	0.0	3	43 2 2 1
+38	68	0.0	3	63 2 2 1
+39	42	0.0	3	34 7 1
+40	42	0.0	3	38 3 1
+41	30	0.0	3	29 0 1
+42	27	0.0	3	24 3
+43	41	0.0	3	38 1 1 1
+44	15	0.0	3	14 0 1
+45	21	0.0	3	19 1 0 1
+46	14	0.0	3	13 0 0 1
+47	9	0.0	3	8 1
+48	14	0.0	3	10 1 1 2
+49	9	0.0	3	6 1 1 1
+50	8	0.0	3	7 1
+51	3	0.0	3	3
+52	5	0.0	3	4 1
+53	7	0.0	3	7
+54	4	0.0	3	3 0 0 1
+55	7	0.0	3	6 1
+56	6	0.0	3	6
+57	7	0.0	3	5 1 1
+58	5	0.0	3	4 0 1
+59	8	0.0	3	8
+60	4	0.0	3	4
+61	7	0.0	3	6 1
+62	4	0.0	3	3 1
+63	5	0.0	3	3 1 0 1
+64	6	0.0	3	3 0 2 1
+65	5	0.0	3	4 1
+66	5	0.0	3	2 2 1
+67	5	0.0	3	4 0 0 1
+68	9	0.0	3	5 1 3
+69	3	0.0	3	2 0 1
+70	7	0.0	3	4 2 0 1
+71	8	0.0	3	1 0 7
+72	15	0.0	3	3 3 6 3
+73	33	0.0	3	1 4 24 4
+74	246	0.0	3	0 24 210 12
+75	2541	0.0	3	8 1124 1354 55
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15503143_trimmed.fastq.gz ../data/raw/SRR15503143.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 78.091 s (6.509 µs/read; 9.22 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,997,486
+Reads with adapters:                   347,260 (2.9%)
+Reads written (passing filters):    11,997,486 (100.0%)
+
+Total basepairs processed:   899,811,450 bp
+Quality-trimmed:               7,227,831 bp (0.8%)
+Total written (filtered):    891,374,280 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 347260 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 29.7%
+  C: 31.4%
+  G: 26.4%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	272566	187460.7	0	272566
+4	45101	46865.2	0	45101
+5	14557	11716.3	0	14557
+6	3148	2929.1	0	3148
+7	2158	732.3	0	2158
+8	1488	183.1	0	1488
+9	1685	45.8	0	1377 308
+10	1729	11.4	1	1300 429
+11	1343	2.9	1	1087 256
+12	1212	0.7	1	1077 135
+13	1049	0.2	1	985 64
+14	1217	0.0	1	0 1217
+15	5	0.0	1	0 5
+16	2	0.0	1	0 2
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 4 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -q 20 -o ../results/cutadapt/SRR15503154_trimmed.fastq.gz ../data/raw/SRR15503154.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 73.899 s (6.160 µs/read; 9.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,997,486
+Reads with adapters:                   336,570 (2.8%)
+Reads written (passing filters):    11,997,486 (100.0%)
+
+Total basepairs processed:   899,811,450 bp
+Quality-trimmed:                 555,353 bp (0.1%)
+Total written (filtered):    897,385,021 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 34; Trimmed: 336570 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 24.4%
+  C: 30.2%
+  G: 26.8%
+  T: 16.7%
+  none/other: 1.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	244373	187460.7	0	244373
+4	49021	46865.2	0	49021
+5	12418	11716.3	0	12418
+6	2582	2929.1	0	2582
+7	1902	732.3	0	1902
+8	1650	183.1	0	1650
+9	1572	45.8	0	1375 197
+10	1612	11.4	1	1319 293
+11	1282	2.9	1	1149 133
+12	1152	0.7	1	1059 93
+13	1097	0.2	1	1064 33
+14	959	0.0	1	930 29
+15	774	0.0	1	750 24
+16	730	0.0	1	705 25
+17	717	0.0	1	700 17
+18	625	0.0	1	603 22
+19	596	0.0	1	584 12
+20	567	0.0	2	535 26 6
+21	550	0.0	2	528 20 2
+22	481	0.0	2	452 25 4
+23	462	0.0	2	441 20 1
+24	389	0.0	2	368 21
+25	390	0.0	2	371 19
+26	347	0.0	2	335 10 2
+27	331	0.0	2	319 10 2
+28	337	0.0	2	319 14 4
+29	260	0.0	2	244 14 2
+30	251	0.0	3	235 10 5 1
+31	206	0.0	3	196 8 1 1
+32	247	0.0	3	230 13 2 2
+33	173	0.0	3	161 10 0 2
+34	227	0.0	3	205 18 3 1
+35	210	0.0	3	199 10 0 1
+36	180	0.0	3	166 8 4 2
+37	174	0.0	3	157 13 3 1
+38	155	0.0	3	147 7 1
+39	132	0.0	3	119 9 3 1
+40	115	0.0	3	108 5 2
+41	130	0.0	3	123 5 2
+42	99	0.0	3	92 3 4
+43	109	0.0	3	107 2
+44	49	0.0	3	45 2 1 1
+45	75	0.0	3	67 6 2
+46	58	0.0	3	54 4
+47	36	0.0	3	36
+48	37	0.0	3	33 2 1 1
+49	23	0.0	3	22 1
+50	23	0.0	3	22 0 0 1
+51	22	0.0	3	19 2 1
+52	12	0.0	3	11 1
+53	12	0.0	3	6 4 1 1
+54	12	0.0	3	10 2
+55	16	0.0	3	12 4
+56	12	0.0	3	12
+57	14	0.0	3	13 1
+58	8	0.0	3	6 1 1
+59	15	0.0	3	14 0 0 1
+60	12	0.0	3	12
+61	14	0.0	3	14
+62	11	0.0	3	10 1
+63	8	0.0	3	5 1 2
+64	15	0.0	3	7 3 5
+65	22	0.0	3	10 8 4
+66	14	0.0	3	5 8 1
+67	17	0.0	3	9 7 1
+68	15	0.0	3	11 3 0 1
+69	11	0.0	3	7 2 2
+70	20	0.0	3	13 1 5 1
+71	11	0.0	3	1 2 7 1
+72	44	0.0	3	16 6 21 1
+73	61	0.0	3	8 11 39 3
+74	596	0.0	3	7 45 516 28
+75	5691	0.0	3	11 2453 3102 125

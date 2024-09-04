@@ -1,0 +1,159 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 16 BAM files                                     ||
+||                                                                            ||
+||                           SRR15502495_aligned.bam                          ||
+||                           SRR15502506_aligned.bam                          ||
+||                           SRR15502562_aligned.bam                          ||
+||                           SRR15502573_aligned.bam                          ||
+||                           SRR15502584_aligned.bam                          ||
+||                           SRR15502595_aligned.bam                          ||
+||                           SRR15502832_aligned.bam                          ||
+||                           SRR15502843_aligned.bam                          ||
+||                           SRR15502854_aligned.bam                          ||
+||                           SRR15502865_aligned.bam                          ||
+||                           SRR15502965_aligned.bam                          ||
+||                           SRR15502976_aligned.bam                          ||
+||                           SRR15502988_aligned.bam                          ||
+||                           SRR15502999_aligned.bam                          ||
+||                           SRR15503143_aligned.bam                          ||
+||                           SRR15503154_aligned.bam                          ||
+||                                                                            ||
+||             Output file : tmp_counts.txt                                   ||
+||                 Summary : tmp_counts.txt.summary                           ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : Mus_musculus.GRCm39.112.gtf (GTF)                ||
+||      Dir for temp files : ../results/featureCounts                         ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.112.gtf ...                       ||
+||    Features : 864295                                                       ||
+||    Meta-features : 57186                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Load FASTA contigs from Mus_musculus.GRCm39.dna.primary_assembly.fa...     ||
+||    61 contigs were loaded                                                  ||
+||                                                                            ||
+|| Process BAM file SRR15502495_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9961791                                              ||
+||    Successfully assigned alignments : 6514566 (65.4%)                      ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502506_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9993075                                              ||
+||    Successfully assigned alignments : 6729109 (67.3%)                      ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502562_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 13149667                                             ||
+||    Successfully assigned alignments : 8977079 (68.3%)                      ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502573_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 13188196                                             ||
+||    Successfully assigned alignments : 9218994 (69.9%)                      ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502584_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12886695                                             ||
+||    Successfully assigned alignments : 8558596 (66.4%)                      ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502595_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12935086                                             ||
+||    Successfully assigned alignments : 8828743 (68.3%)                      ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502832_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 14820124                                             ||
+||    Successfully assigned alignments : 10001932 (67.5%)                     ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502843_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 14871232                                             ||
+||    Successfully assigned alignments : 10327645 (69.4%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502854_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10579677                                             ||
+||    Successfully assigned alignments : 7027938 (66.4%)                      ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502865_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10625720                                             ||
+||    Successfully assigned alignments : 7279916 (68.5%)                      ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502965_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10301764                                             ||
+||    Successfully assigned alignments : 7025750 (68.2%)                      ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502976_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10314504                                             ||
+||    Successfully assigned alignments : 7227959 (70.1%)                      ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502988_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10472880                                             ||
+||    Successfully assigned alignments : 6827913 (65.2%)                      ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15502999_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10507503                                             ||
+||    Successfully assigned alignments : 7041339 (67.0%)                      ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15503143_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 13363003                                             ||
+||    Successfully assigned alignments : 9254299 (69.3%)                      ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15503154_aligned.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 13392145                                             ||
+||    Successfully assigned alignments : 9524810 (71.1%)                      ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "../results/featureCount  ||
+|| s/tmp_counts.txt.summary"                                                  ||
+||                                                                            ||
+\\============================================================================//
+

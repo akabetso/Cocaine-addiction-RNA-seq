@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR15502965	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502965_fastqc.zip
+FastQC	all_sections	SRR15502584	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502584_fastqc.zip
+FastQC	all_sections	SRR15502976	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502976_fastqc.zip
+FastQC	all_sections	SRR15502495	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502495_fastqc.zip
+FastQC	all_sections	SRR15502865	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502865_fastqc.zip
+FastQC	all_sections	SRR15502999	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502999_fastqc.zip
+FastQC	all_sections	SRR15502562	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502562_fastqc.zip
+FastQC	all_sections	SRR15502988	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502988_fastqc.zip
+FastQC	all_sections	SRR15502843	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502843_fastqc.zip
+FastQC	all_sections	SRR15502832	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502832_fastqc.zip
+FastQC	all_sections	SRR15502854	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502854_fastqc.zip
+FastQC	all_sections	SRR15502573	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502573_fastqc.zip
+FastQC	all_sections	SRR15502595	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502595_fastqc.zip
+FastQC	all_sections	SRR15502506	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15502506_fastqc.zip
+FastQC	all_sections	SRR15503143	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15503143_fastqc.zip
+FastQC	all_sections	SRR15503154	/home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc/SRR15503154_fastqc.zip

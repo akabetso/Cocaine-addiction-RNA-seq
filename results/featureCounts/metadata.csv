@@ -1,0 +1,17 @@
+Run,sample_name,sex,tissue,replicates
+SRR15502495,Saline,female,nucleus accumbens,1
+SRR15502506,Saline,female,nucleus accumbens,2
+SRR15502562,Cocaine,female,Prefrontal Cortex,1
+SRR15502573,Cocaine,female,Prefrontal Cortex,2
+SRR15502584,Cocaine,female,nucleus accumbens,1
+SRR15502595,Cocaine,female,nucleus accumbens,2
+SRR15502832,Saline,male,Prefrontal Cortex,1
+SRR15502843,Saline,male,Prefrontal Cortex,2
+SRR15502854,Saline,male,nucleus accumbens,1
+SRR15502865,Saline,male,nucleus accumbens,2
+SRR15502965,Cocaine,male,Prefrontal Cortex,1
+SRR15502976,Cocaine,male,Prefrontal Cortex,2
+SRR15502988,Cocaine,male,nucleus accumbens,1
+SRR15502999,Cocaine,male,nucleus accumbens,2
+SRR15503143,Saline,female,Prefrontal Cortex,1
+SRR15503154,Saline,female,Prefrontal Cortex,2

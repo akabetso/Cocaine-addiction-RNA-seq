@@ -1,0 +1,11 @@
+
+/// MultiQC 🔍 v1.23
+
+     version_check | MultiQC Version v1.24.1 now available!
+       file_search | Search path: /home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/fastqc
+
+            fastqc | Found 16 reports
+
+     write_results | Data        : ../results/multiqc/multiqc_data
+     write_results | Report      : ../results/multiqc/multiqc_report.html
+           multiqc | MultiQC complete
