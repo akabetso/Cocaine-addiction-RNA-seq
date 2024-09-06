@@ -90,26 +90,3 @@ The final step was finding the significant genes to compare with that of Wang X 
 We showed the presence of the genes mentioned by Wang X et al in the A/J strains, but suggest that in this strain, there are more highly significan genes than those they mentioned suggesting different genes are involve or respond to cocaine drug in A/J mouse strain than in humans. Drugs for cocaine addition developed based on their predicted genes might not be effective for A/J mouse strain since different genes are involve and the mechanism fo action might be different.
 
 
-
-
-
-
-
-
-
-
-
-
-#Download files using sra run:
-prefetch SRRXXXXXXX
-#download assession files
-prefetch --option-file /path/to/your/accession_list.txt
-
-#convert to fastq.gz
-fastq-dump --split-files SRRXXXXXXX.sra
-#convert multi files
-for sra_file in *.sra; do
-  fastq-dump --split-files --gzip "$sra_file"
-done
-
-interleaved FASTQ format, where paired reads are stored consecutively within a single file.

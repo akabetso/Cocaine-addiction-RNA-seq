@@ -3,9 +3,11 @@
 library(DESeq2)
 library(ggplot2)
 library(gridExtra) 
+library(dplyr)
+library(ggrepel)
 
 # Directories
-col_data <- "../data/ref_genome/metadata.csv"
+col_data <- "../results/featureCounts/metadata.csv"
 counts_data <- "../results/featureCounts/counts_matrix.csv"
 output_file <- "../results/featureCounts/dseq_results.txt"
 output_plot <- "../results/featureCounts"
@@ -13,18 +15,21 @@ output_plot <- "../results/featureCounts"
 # Load the count data
 countData <- read.csv(counts_data, row.names = 1)
 # Convert to integers 
-countData <- round(countData)
+head(countData, 5)
+#countData <- round(countData)
 
 # Load the metadata
 colData <- read.csv(col_data, row.names = 1)
+colData
 
 # Set the design formula for DESeq2
-design <- "Time + Replicates"
+design <- "sample_name + sex + tissue + replicates"
 design <- as.formula(paste("~", design))
 
-#colData factor
-colData$Time <- factor(colData$Time)
-colData$Replicates <- factor(colData$Replicates)
+colData$sample_name <- factor(colData$sample_name)
+colData$sex <- factor(colData$sex)
+colData$tissue <- factor(colData$tissue)
+colData$replicates <- factor(colData$replicates)
 
 # Create DESeq2 dataset object
 dds <- DESeqDataSetFromMatrix(countData = countData, colData = colData, design = design)
@@ -61,25 +66,21 @@ pdf(file.path(output_plot, "MA_plots_combined.pdf"), width = 14, height = 8)
 # Set up a 2x3 grid layout for the plots
 par(mfrow = c(2, 3), mar = c(4, 4, 4, 2)) 
 
-# Plot 1: Time 25 vs Time 0
-res_time_25_vs_0 <- results(dds, name = "Time_25_vs_0")
-plotMA(res_time_25_vs_0, main = "Time 25 vs Time 0", ylim = c(-5, 5))
+# Plot 1: male vs female
+res_sex <- results(dds, name = "sex_male_vs_female")
+plotMA(res_sex, main = "Male vs Female", ylim = c(-5, 5))
 
-# Plot 2: Time 13 vs Time 0
-res_time_13_vs_0 <- results(dds, name = "Time_13_vs_0")
-plotMA(res_time_13_vs_0, main = "Time 13 vs Time 0", ylim = c(-5, 5))
+# Plot 2: Saline vs Cocaine
+res_sample <- results(dds, name = "sample_name_Saline_vs_Cocaine")
+plotMA(res_sex, main = "Saline vs Cocaine", ylim = c(-5, 5))
 
-# Plot 3: Time 8 vs Time 0
-res_time_8_vs_0 <- results(dds, name = "Time_8_vs_0")
-plotMA(res_time_8_vs_0, main = "Time 8 vs Time 0", ylim = c(-5, 5))
+# Plot 3: Tissue
+res_tissue <- results(dds, name = "tissue_Prefrontal.Cortex_vs_nucleus.accumbens")
+plotMA(res_tissue, main = "prefrontal cortex vs nucleus accumbens", ylim = c(-5, 5))
 
 # Plot 4: Replicate 3 vs Replicate 1
-res_replicate_3_vs_1 <- results(dds, name = "Replicates_3_vs_1")
-plotMA(res_replicate_3_vs_1, main = "Replicate 3 vs Replicate 1", ylim = c(-5, 5))
-
-# Plot 5: Replicate 2 vs Replicate 1
-res_replicate_2_vs_1 <- results(dds, name = "Replicates_2_vs_1")
-plotMA(res_replicate_2_vs_1, main = "Replicate 2 vs Replicate 1", ylim = c(-5, 5))
+res_replicate_2_vs_1 <- results(dds, name = "replicates_2_vs_1")
+plotMA(res_replicate_2_vs_1, main = "replicate 2 vs Replicate 1", ylim = c(-5, 5))
 dev.off()
 
 
@@ -88,59 +89,79 @@ dev.off()
 vsd <- vst(dds, blind = FALSE)
 
 # PCA plot using both Time and Replicates
-pca_data <- plotPCA(vsd, intgroup = c("Time", "Replicates"), returnData = TRUE)
+pca_data <- plotPCA(vsd, intgroup = c("sex","tissue", "replicates"), returnData = TRUE)
 percentVar <- round(100 * attr(pca_data, "percentVar"))
 
 # Generate and save PCA plot
-pdf(file.path(output_plot, "PCA_plot_time_replicates.pdf"))
-ggplot(pca_data, aes(x = PC1, y = PC2, color = Time, shape = Replicates)) +
-  geom_point(size = 3) +
+pdf(file.path(output_plot, "PCA_plot_sex_tissue_replicates.pdf"))
+ggplot(pca_data, aes(x = PC1, y = PC2, color = sex, shape = replicates)) +
+  geom_point(aes(size = tissue)) +
   theme_minimal() +
-  labs(title = "PCA Plot: Time and Replicates",
+  labs(title = "PCA Plot: Sex, tissue and replicates",
        x = paste0("PC1: ", percentVar[1], "% variance"),
        y = paste0("PC2: ", percentVar[2], "% variance")) +
   scale_color_manual(values = c("red", "green", "blue", "purple")) +
-  scale_shape_manual(values = c(16, 17, 18)) # Different shapes for replicates
+  scale_shape_manual(values = c(16, 17))
 dev.off()
 
 
 
- 
+all_genes <- read.csv("../data/ref_genome/all_genes.csv") 
 # Function to create a volcano plot with upregulation, downregulation, and other categories
 create_volcano_plot <- function(res, title) {
   volcano_data <- as.data.frame(res)
   
   # Define significance thresholds
-  log2fc_threshold <- 1 
+  log2fc_threshold <- 2 
   pval_threshold <- 0.05
-  
+  significant_threshold <- 10^(-200)
+
+  #Categorize highly significant genes for labelling
+  #volcano_data$category[volcano_data$pvalue >= label_threshold
+  filtered_data <- as.data.frame(res)
+  filtered_data$Geneid <- rownames(filtered_data)
+
+  # Perform a left join to add gene_name to filtered_data
+  filtered_data <- filtered_data %>%
+    left_join(all_genes %>% select(gene_id, gene_name), 
+              by = c("Geneid" = "gene_id")) %>%
+    rename(significant_gname = gene_name)
+  print(head(filtered_data))
+  #filtered_data$significant_gname[is.na(filtered_data$significant_gname)] <- NA
   # Categorize genes as upregulated, downregulated, or other
   volcano_data$category <- "Not Significant"
   volcano_data$category[volcano_data$log2FoldChange >= log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Upregulated"
   volcano_data$category[volcano_data$log2FoldChange <= -log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Downregulated"
+  filtered_data$category <- "Not Significant"
+  filtered_data$category[volcano_data$log2FoldChange >= log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Upregulated"
+  filtered_data$category[volcano_data$log2FoldChange <= -log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Downregulated"
   
   # Create the plot
-  p <- ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
+  volcano_data$s_label <- ifelse(filtered_data$pvalue >= significant_threshold | filtered_data$category == "Not Significant", NA, as.character(filtered_data$significant_gname))
+  print(head(volcano_data))
+  volcano_plot <- ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
     geom_point() +
+    geom_text_repel(aes(label = s_label), na.rm = TRUE, box.padding = 0.1, point.padding = 0.1, segment.color = 'grey50') +
     theme_minimal() +
     labs(title = title, x = "Log2 Fold Change", y = "-Log10 p-value") +
-    scale_color_manual(values = c("Upregulated" = "red", "Downregulated" = "blue", "Not Significant" = "gray"))
-  
-  return(p)
+    scale_color_manual(values = c("Upregulated" = "red", "Downregulated" = "blue", "Not Significant" = "gray")) +
+    geom_vline(xintercept = c(-2, 2), col = "blue") +
+    geom_hline(yintercept = -log10(0.05), col = "blue")
+  return(volcano_plot)
 }
 
+
+
 # Generate volcano plots
-volcano_time_8_vs_0 <- create_volcano_plot(res_time_8_vs_0, "Volcano Plot: Time 8 vs 0")
-volcano_time_13_vs_0 <- create_volcano_plot(res_time_13_vs_0, "Volcano Plot: Time 13 vs 0")
-volcano_time_25_vs_0 <- create_volcano_plot(res_time_25_vs_0, "Volcano Plot: Time 25 vs 0")
-volcano_replicates_2_vs_1 <- create_volcano_plot(res_replicate_2_vs_1, "Volcano Plot: Replicates 2 vs 1")
-volcano_replicates_3_vs_1 <- create_volcano_plot(res_replicate_3_vs_1, "Volcano Plot: Replicates 3 vs 1")
+volcano_sample <- create_volcano_plot(res_sample, "Saline vs Cocaine")
+volcano_sex <- create_volcano_plot(res_sex, "Sex - male vs female")
+volcano_tissue <- create_volcano_plot(res_tissue, "Tissue - prefrontal cortex - nuclus accumens")
+volcano_replicates <- create_volcano_plot(res_replicate_2_vs_1, "Replicates 1&2")
 
 # Combine the volcano plots into one page with a 2x3 grid layout
 pdf(file.path(output_plot, "volcano_plots_combined.pdf"), width = 14, height = 8)
 
-grid.arrange(volcano_time_25_vs_0, volcano_time_13_vs_0, volcano_time_8_vs_0,
-             volcano_replicates_3_vs_1, volcano_replicates_2_vs_1,
+grid.arrange(volcano_sample, volcano_sex, volcano_tissue, volcano_replicates,
              ncol = 3)
 dev.off()
 
