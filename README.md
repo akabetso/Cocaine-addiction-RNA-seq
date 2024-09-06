@@ -29,7 +29,7 @@ In this dataset, due to it's large size, we only consedered one strain A/J, belo
 
 According [Conesa A et al](https://pubmed.ncbi.nlm.nih.gov/26813401/), the first important step in RNA_seq study is to first choosing an appropriate library type, sequencing depth and number of replicates for the biological system under study. To provide you with a brief rundown of library preparation from the perspective of [Wang J et](https://pubmed.ncbi.nlm.nih.gov/30297273/) in a similar case with cancer cells. First the RNA is extracted from the cells and the subsets or RNA molecules are isolated. mRNA are mostly extracted using poly-A selection to prevent degration of mRNA. small RNAs lacking poly-A tail can be selected using size selection. the process is briefed in the diagram below.
 
-![Library_prep](data/library.png)
+![Library_prep](data/library_prep.png)
 
 They further proposed a post library preparation workflow. Millions of short reads sequenced from PCR amplified of cDNA adapter ligaged fragments (reasons why it's important to check adapters and trim). Reads can be derived from single-end or paired end sequencing which can then be aligned to reference genome followed by down streams analysis. see the diagram below for clarity.
 
