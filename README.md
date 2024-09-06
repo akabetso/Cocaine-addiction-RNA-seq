@@ -22,12 +22,12 @@ The roadmap used for this work is described by [Conesa A et al](https://pubmed.n
 ![road_map](data/road_map.png)
 
 1. Pre-analysis
-	-**Library preparation**
-	-**Quality control**
+	- **Library preparation**
+	- **Quality control**
 2. Core-analysis
-	-**Transcriptome profiling:** alignment, quality control, Quantification
-	-**Differential expression**
-	-**Interpretation**
+	- **Transcriptome profiling:** alignment, quality control, Quantification
+	- **Differential expression**
+	- **Interpretation**
 	
 ### Preanlysis
 
