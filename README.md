@@ -17,13 +17,17 @@ In this dataset, due to it's large size, we only consedered one strain A/J, belo
 
 ## Workflow
 
+The roadmap used for this work is described by [Conesa A et al](https://pubmed.ncbi.nlm.nih.gov/26813401/) with (a) containing the eperimental design, sequencing and quality contol, (b) the transcriptome profiling, differential gene expresion and functional profiling. (c) while there migty be post differential expression analysis methods, it's is not expressed in this study.
+
+![road_map](data/road_map.png)
+
 1. Pre-analysis
-	Library preparation
-	Quality control
+	-**Library preparation**
+	-**Quality control**
 2. Core-analysis
-	Transcriptome profiling (alignment, quality control, Quantification)
-	Differential expression
-	Interpretation
+	-**Transcriptome profiling:** alignment, quality control, Quantification
+	-**Differential expression**
+	-**Interpretation**
 	
 ### Preanlysis
 
@@ -43,7 +47,7 @@ As mentioned earlier, the said dataset was downloaded from GEO using the SRA_ACC
 
 As described by [Guo Y et al](https://academic.oup.com/bib/article/15/6/879/180439), Quality control is essential at three different stages: Raw data quality conrol, alignment quality conrol and variant calling quality control.
 
-FastQC was used to study the quality control of the raw data, the quality showed less than o.1% of adapter contamination and phred score > 30. we saw minimal reason to trim the data and proceeded directly with alignment using HISAT2. After alignment, Qualimap was used to look into the alignment coverage and the overal quality of the data at this stage. multiQC was used to generate i nice report of the entire quality control. a snipset of the general statistics is shown below.
+FastQC was used to study the quality control of the raw data, the quality showed less than o.1% of adapter contamination and phred score > 30. we saw minimal reason to trim the data and proceeded directly with alignment using HISAT2. After alignment, Qualimap was used to look into the alignment coverage and the overal quality of the data at this stage. multiQC was used to generate i nice report of the entire quality control. a snipset of the general statistics is shown below. The mm10 reference genome had been previously downloaded and indexed with HISAT2 for HISAT2 alignment.
 
 ![quality_control](data/quality_control.png)
 
@@ -53,9 +57,39 @@ We also see that, the QC content for Qualimap et fastQC are the same confirming 
 
 The futureCounts of allignment that were qauntified and assigned were between 65% to 70%. FastQC showed a duplication reads rate of 40% averaged which impacts the unassigned reads.
 
+Overal from the statistics table, there are 16 samples not 48. 48 represents the sum of the samples in each case (Bam, fastqc and featurecounts).
+
+### Transcriptome profiling
+
+featureCounts was used to quantify the genes expression, the experimental metadata was also downloaded from the same website as the dataset and cleaned in python contain gene names and design factors needed for downstream analysis. featureCounts results were equally cleaned in python to match the sample names in the metada.
+
+### Differential gene expression
+
+Deseq2 was used to differntially expressed the reads. design factors was parsed to treat the sample factors independently. 
+
+### Intepretation
+
+Log2 fold change set to 2 and p-value set to 0.05 following the articles mentioned in this study. ALthough Wang X et al used a Log2FC of 1 in their experimental dataset.
+
+Firstly, a histogram of p-values and adjusted p-values was ploted to check the true hypothesis. We saw that thre was a larger fraction of reads with less than 0.05 pvalue, the adjusted pvalue show a rather smaller fraction of reads lesser than 0.05 which is great showing that the significant reads are truely biologically relevant.
+
+Next we ploted the dispersion plot to check the variability of gene expression.  The fitted and shrunk dispersion demonstrate that the statistical model effectively accounts for reliable detection of differentially expressed genes. Generally, genes with low expression levels have high variability.
+
+Deseq output plots can be seen in [featureCounts](https://github.com/akabetso/Cocaine-addiction-RNA-seq/tree/master/results/featureCounts)
+
+PCA plot showed an 8% variability between replicates as well as male and female. for replicates it is always impeccable when it's variability is very small showing consistency and replicability. However 8% is quite a number showing a small percentage of variability but minimal which is within considerable limits. There was an important variability between the tissue types, Biologically, tissues from the nucleus accumbens respond differently to tissues from the prefrontal cortex when treated with cocaine. The doses where not considered for simplicity. But what about cocaine vs control!
+
+![pca](data/pca.png)
+
+Volcano plot observations supported the observations described by the PCA above. There were highly significantly differentiated genes between the nucleus accumbens and prefrontal cortex and minimal accroos other design factors. This shows men and women will experience similar reactions when exposed to cocaine drugs, but in terms of Saline control and cocaine drugs, there were fewer upregulated and downregulated showing the cocaine and saline have the same effect in A/J mouse strain, There were fewer reads in general as even the insignificant reads were fewer. I will further investigate this but possibility being i might have wrongly intepreted the control and treatment samples. 
+
+![volcano](data/volcano.png) 
+
+The final step was finding the significant genes to compare with that of Wang X et al. We download a file containing all the gene id, and gene names of the mm10 model, and creating a correspondance in R to label the highly significant gene names on the volacon plot as shown above. Here we did not see the any of the genes mentioned by Wang et al to be highly significant though the genes are present in our sample, significant but not highly signifcan. This is okay as we only used a subsample of one strain amongs the many strains of the available data. 
+
+We showed the presence of the genes mentioned by Wang X et al in the A/J strains, but suggest that in this strain, there are more highly significan genes than those they mentioned suggesting different genes are involve or respond to cocaine drug in A/J mouse strain than in humans. Drugs for cocaine addition developed based on their predicted genes might not be effective for A/J mouse strain since different genes are involve and the mechanism fo action might be different.
 
 
-The mm10 reference genome had been previously downloaded with and indexed with hitsat2.
 
 
 
