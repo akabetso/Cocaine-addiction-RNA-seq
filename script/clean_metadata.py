@@ -28,6 +28,7 @@ runs_to_keep = [
 metadata = shrunken_metadata[shrunken_metadata['Run'].isin(runs_to_keep)]
 metadata = metadata.drop(metadata.columns[1], axis=1)
 metadata.to_csv("../results/featureCounts/metadata.csv", index=False)
+metadata.rename(columns={'Sample Name': 'sample_name'}, inplace=True)
 metadata
 
 #load the feature counts data

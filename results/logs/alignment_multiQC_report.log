@@ -1,0 +1,12 @@
+
+/// MultiQC 🔍 v1.24.1
+
+       file_search | Search path: /home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results
+
+          qualimap | Found 16 BamQC reports
+     featurecounts | Found 16 reports
+            fastqc | Found 16 reports
+
+     write_results | Data        : /home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/alignment_MultiQC_report/multiqc_data
+     write_results | Report      : /home/akabetso/Desktop/Transcriptome/Cocaine addiction RNA-seq/results/alignment_MultiQC_report/multiqc_report.html
+           multiqc | MultiQC complete
