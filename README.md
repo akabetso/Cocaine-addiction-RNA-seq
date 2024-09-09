@@ -89,4 +89,8 @@ The final step was finding the significant genes to compare with that of Wang X 
 
 We showed the presence of the genes mentioned by Wang X et al in the A/J strains, but suggest that in this strain, there are more highly significan genes than those they mentioned suggesting different genes are involve or respond to cocaine drug in A/J mouse strain than in humans. Drugs for cocaine addition developed based on their predicted genes might not be effective for A/J mouse strain since different genes are involve and the mechanism fo action might be different.
 
+![Identified_specific_genese](data/Identified_specific_genes.png) 
 
+The figure above clearly shows the expression level of the genes identified by Wang X et al to be involved in cocaine addiction mechanisnm. In our case, this genes are not significant, however, if we changed the log2FC to 1 as in thier case, JUN and FOS genes will be upregulated genes. Their results were supported by performing literature review of a network of protein protein interactions which revealed these genes only are key genes involve in cocaine addiction mechanism.
+
+Thank you for reading through, please do not hesitate to comment your thoughts on my presentation and approach on this work. 
