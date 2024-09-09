@@ -83,8 +83,6 @@ res_replicate_2_vs_1 <- results(dds, name = "replicates_2_vs_1")
 plotMA(res_replicate_2_vs_1, main = "replicate 2 vs Replicate 1", ylim = c(-5, 5))
 dev.off()
 
-
-
 # Perform variance stabilizing transformation (VST) for PCA
 vsd <- vst(dds, blind = FALSE)
 
@@ -103,8 +101,6 @@ ggplot(pca_data, aes(x = PC1, y = PC2, color = sex, shape = replicates)) +
   scale_color_manual(values = c("red", "green", "blue", "purple")) +
   scale_shape_manual(values = c(16, 17))
 dev.off()
-
-
 
 all_genes <- read.csv("../data/ref_genome/all_genes.csv") 
 # Function to create a volcano plot with upregulation, downregulation, and other categories
@@ -138,10 +134,10 @@ create_volcano_plot <- function(res, title) {
   
   # Create the plot
   volcano_data$s_label <- ifelse(filtered_data$pvalue >= significant_threshold | filtered_data$category == "Not Significant", NA, as.character(filtered_data$significant_gname))
-  print(head(volcano_data))
+
   volcano_plot <- ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
     geom_point() +
-    geom_text_repel(aes(label = s_label), na.rm = TRUE, box.padding = 0.1, point.padding = 0.1, segment.color = 'grey50') +
+    geom_text_repel(aes(label = s_label), na.rm = TRUE, box.padding = 0.1, point.padding = 0.1, segment.color = 'grey50', color = volcano_data$label_color) +
     theme_minimal() +
     labs(title = title, x = "Log2 Fold Change", y = "-Log10 p-value") +
     scale_color_manual(values = c("Upregulated" = "red", "Downregulated" = "blue", "Not Significant" = "gray")) +
@@ -149,8 +145,6 @@ create_volcano_plot <- function(res, title) {
     geom_hline(yintercept = -log10(0.05), col = "blue")
   return(volcano_plot)
 }
-
-
 
 # Generate volcano plots
 volcano_sample <- create_volcano_plot(res_sample, "Saline vs Cocaine")
@@ -165,4 +159,51 @@ grid.arrange(volcano_sample, volcano_sex, volcano_tissue, volcano_replicates,
              ncol = 3)
 dev.off()
 
+# Find and label only genes identified by Wang X et al.
+identify_specific_genes_expression<- function(res, title) {
+  volcano_data <- as.data.frame(res)
+  
+  # Define significance thresholds
+  log2fc_threshold <- 2 
+  pval_threshold <- 0.05
+  significant_threshold <- 10^(-200)
+
+  #Categorize highly significant genes for labelling
+  #volcano_data$category[volcano_data$pvalue >= label_threshold
+  filtered_data <- as.data.frame(res)
+  filtered_data$Geneid <- rownames(filtered_data)
+
+  # Perform a left join to add gene_name to filtered_data
+  filtered_data <- filtered_data %>%
+    left_join(all_genes %>% select(gene_id, gene_name), 
+              by = c("Geneid" = "gene_id")) %>%
+    rename(significant_gname = gene_name)
+  #filtered_data$significant_gname[is.na(filtered_data$significant_gname)] <- NA
+  # Categorize genes as upregulated, downregulated, or other
+  volcano_data$category <- "Not Significant"
+  volcano_data$category[volcano_data$log2FoldChange >= log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Upregulated"
+  volcano_data$category[volcano_data$log2FoldChange <= -log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Downregulated"
+  filtered_data$category <- "Not Significant"
+  filtered_data$category[volcano_data$log2FoldChange >= log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Upregulated"
+  filtered_data$category[volcano_data$log2FoldChange <= -log2fc_threshold & volcano_data$pvalue < pval_threshold] <- "Downregulated"
+  
+  # Create the plot
+  volcano_data$s_label <- ifelse(!(filtered_data$significant_gname %in% c("Fos", "Jun", "Il6", "Egr1")), NA, as.character(filtered_data$significant_gname))
+  volcano_data$label_color <- ifelse(!is.na(volcano_data$s_label), "darkgreen", NA)
+
+  volcano_plot <- ggplot(volcano_data, aes(x = log2FoldChange, y = -log10(pvalue), color = category)) +
+    geom_point() +
+    geom_text_repel(aes(label = s_label), na.rm = TRUE, box.padding = 0.1, point.padding = 0.1, segment.color = 'grey50', color = volcano_data$label_color) +
+    theme_minimal() +
+    labs(title = title, x = "Log2 Fold Change", y = "-Log10 p-value") +
+    scale_color_manual(values = c("Upregulated" = "red", "Downregulated" = "blue", "Not Significant" = "gray")) +
+    geom_vline(xintercept = c(-2, 2), col = "blue") +
+    geom_hline(yintercept = -log10(0.05), col = "blue")
+  return(volcano_plot)
+}
+volcano_tissue <- identify_specific_genes_expression()(res_tissue, "Tissue - prefrontal cortex - nuclus accumens")
+# Combine the volcano plots into one page with a 2x3 grid layout
+pdf(file.path(output_plot, "Identify_specific_genes.pdf"), width = 14, height = 8)
+grid.arrange(volcano_tissue)
+dev.off()
 cat("Results and plots saved successfully to", output_plot, "\n")
