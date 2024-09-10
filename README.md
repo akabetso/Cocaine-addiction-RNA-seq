@@ -1,10 +1,10 @@
 # *Identification of key genes for cocaine addiction using integerated bioinformatics analysis*
 
-# Compiled by *Desmond Akabetso Nde*
+## Compiled by *Desmond Akabetso Nde*
 
-# Last updated on the *10 of September 2024*
+## Last updated on the *10 of September 2024*
 
-# *Enjoy reading through and do not hesitate to comment your thougths on my approach and analysis.*
+## *Enjoy reading through and do not hesitate to comment your thougths on my approach and analysis.*
 
 [Wang X et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10352680/) proposed a study to reveal the mechanism of cocaine addiction and identification of key genes that play important roles in cocaine addiction.
 
